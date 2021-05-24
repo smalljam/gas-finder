@@ -1,3 +1,12 @@
+# Helper scripts
+
+## Brand parser
+
+`cd scripts`
+`yarn`
+download stations file from [azure](https://dev.azure.com/tankerkoenig/_git/tankerkoenig-data?path=%2Fstations%2F2021%2F05%2F2021-05-23-stations.csv)
+`node parseBrands.js 2021-05-23-stations.csv ../public/brands.json`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

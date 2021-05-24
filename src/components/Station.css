@@ -1,0 +1,15 @@
+.station {
+  border: 1px solid lightblue;
+  border-radius: 8px;
+  margin: 16px 0;
+  padding: 16px;
+}
+
+.station h4 {
+  margin: 0;
+}
+
+.station.disabled {
+  border-color: lightgray;
+  color: gray;
+}
